@@ -1,0 +1,64 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+
+.content{
+    height: 100%;
+}
+
+
+.content{
+    color: black;
+    padding: 0px 150px;
+}
+
+
+.content hr{
+    padding: opx 100px;
+    width: 60%;
+    text-align: justify;
+}
+
+ 
+.content-container{
+    display: inline-block;
+    margin: 0;
+}
+
+
+.content-container img{
+    padding: 20px 150px;
+    float: left;
+    height: 310px;
+    width: 320px;
+}
+
+
+.content-container p{
+    padding: 0px 100px;
+    width: 70%;
+    text-align: justify;
+    font-size: large;
+}
